@@ -1,0 +1,6 @@
+{
+  "name": "khe-explain",
+  "description": "코드나 개념을 비유를 들어 쉬운 한국어로 설명하는 하네스",
+  "version": "1.0.0",
+  "author": { "name": "khe" }
+}

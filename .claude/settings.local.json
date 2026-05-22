@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(Head-Object *)",
+      "Bash(python scripts/new-review.py)",
+      "Bash(rm -rf ./-p)",
+      "Bash(rm -f review-output.md)",
+      "Bash(git add *)",
+      "Bash(mkdir -p examples)",
+      "Bash(mv code-review-marketplace/plugins/code-review examples/code-review)",
+      "Bash(rm -rf code-review-marketplace)"
+    ]
+  }
+}

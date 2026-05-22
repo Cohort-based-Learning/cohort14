@@ -1,14 +1,19 @@
 {
-  "name": "code-review-tools",
+  "name": "cohort14",
   "owner": {
     "name": "Cohort-based-Learning"
   },
-  "description": "Teaching-oriented code review harness for student team projects.",
+  "description": "Cohort 14 class plugin marketplace. Each student publishes their own Claude Code harness here.",
   "plugins": [
     {
       "name": "code-review",
-      "source": "./code-review-marketplace/plugins/code-review",
-      "description": "Reviews student team-project code with consistent criteria, guides via questions (no direct fixes), and runs a pre-commit understanding check."
+      "source": "./examples/code-review",
+      "description": "Example harness: teaching-oriented code review with question-based guidance and a pre-commit understanding check."
+    },
+    {
+      "name": "khe-explain",
+      "source": "./khe/khe-explain",
+      "description": "코드나 개념을 비유를 들어 쉬운 한국어로 설명하는 하네스"
     }
   ]
 }
