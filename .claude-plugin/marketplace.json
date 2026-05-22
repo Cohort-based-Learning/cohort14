@@ -1,0 +1,14 @@
+{
+  "name": "code-review-tools",
+  "owner": {
+    "name": "Cohort-based-Learning"
+  },
+  "description": "Teaching-oriented code review harness for student team projects.",
+  "plugins": [
+    {
+      "name": "code-review",
+      "source": "./code-review-marketplace/plugins/code-review",
+      "description": "Reviews student team-project code with consistent criteria, guides via questions (no direct fixes), and runs a pre-commit understanding check."
+    }
+  ]
+}

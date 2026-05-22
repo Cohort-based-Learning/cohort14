@@ -5,7 +5,7 @@
 ## 설치
 
 ```shell
-/plugin marketplace add <당신>/code-review-marketplace
+/plugin marketplace add Cohort-based-Learning/cohort14
 /plugin install code-review@code-review-tools
 /reload-plugins
 ```
