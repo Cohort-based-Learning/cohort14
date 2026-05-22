@@ -1,0 +1,9 @@
+{
+  "name": "code-review",
+  "description": "Teaching-oriented code review: consistent criteria, question-based guidance (no direct fixes), and a pre-commit understanding check with 3 graded questions.",
+  "version": "1.0.0",
+  "author": {
+    "name": "hekwon",
+    "email": "hekwon0425@gmail.com"
+  }
+}
